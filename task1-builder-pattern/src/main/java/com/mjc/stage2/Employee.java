@@ -100,7 +100,7 @@ public class Employee {
             this.employee.carNumber = carNumber;
         }
 
-        public Employee getEmployee() {
+        public Employee build() {
             return this.employee;
         }
     }
